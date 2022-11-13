@@ -12,7 +12,7 @@ TriggerServerEvent('bp_character:isthisfirst')
 
 #### This export control your “charksin” table in database.
 
-![This is an image](https://i.hizliresim.com/lq5d7zn.PNG)
+![This is an image](https://i.hizliresim.com/a51u12b.PNG)
 
 #### İf your data is empty open character create screen . İf your data is not empty load skins your ped.
 
