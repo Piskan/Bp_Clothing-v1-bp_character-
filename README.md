@@ -123,5 +123,30 @@ Config.pedmenulist = {
 
 ```
 
+------------------------------------------------------------------------------------------------------------------
+
+## ESX MULTICHARACTER
+
+#### ESX MULTICHARACTER 
+
+####Support is not given because all settings are made for esx_skin. I'm just throwing a version that you can use without installing peds
+
+#### Do not miss open bp_character > config > Config.useplayerload = true
+
+### LINK :  [MULTICHARACTER](https://easyupload.io/eb4hu1).
+
+------------------------------------------------------------------------------------------------------------------
+
+## QB MULTICHARACTER INFOS
+
+### LINK :  [QB-MULTICHARACTER-EXAMPLE](https://easyupload.io/8zo7ep).
+
+#### QB MULTICHARACTER - CLIENT PART
+
+![This is an image](https://i.hizliresim.com/78rubl3.PNG)
+
+#### QB MULTICHARACTER - SERVER PART
+
+![This is an image](https://i.hizliresim.com/ri94qkf.PNG)
 
 
