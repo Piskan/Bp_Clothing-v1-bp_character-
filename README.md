@@ -27,7 +27,7 @@ TriggerServerEvent('bp_character:isthisfirst')
 #### This export gets all the clothing information of the character
 
 ```
-local skin = exports['bp_character']:characterstyleget(playerid)
+local skin = exports['bp_character']:characterstyleget(playerid)  ---  playerid = xPlayer.identifier or Player.PlayerData.citizenid
 
 ```
 
@@ -47,3 +47,81 @@ TriggerEvent('bp_character:insertped',ped,skin)
 #### Send skin with event in client.lua
 
 ![This is an image](https://i.hizliresim.com/qvxi8ca.PNG)
+
+
+------------------------------------------------------------------------------------------------------------------
+
+
+### DELETE AND TATTO EXPORTS
+
+#### This export delete all character infos like ( character skin, character tattoo , character dress )
+
+```
+exports['bp_character']:playerdeleteforcharacter(xPlayer.idenitifer or Player.PlayerData.citizenid)
+
+```
+
+#### This export get player tattoo
+
+```
+exports['bp_character']:charactertattoget(playerid)
+
+```
+
+
+------------------------------------------------------------------------------------------------------------------
+
+### GIVE SKIN MENU FOR ADMINS
+
+#### This command give players skin menus ( barber shop, clothing shop , or operation)
+
+```
+/skinmenu playerid (barber,clothing,operation)  --- 3 option 
+
+```
+
+## ESX LEGACY IDENTITY SETTINGS AND INFOS
+
+
+[![Watch the video](https://kcdn-dfbd.kxcdn.com/wp-content/uploads/2014/02/Click-Here-to-Play-Video.jpg)](https://youtu.be/Q1YL5fnzIG8)
+
+
+
+------------------------------------------------------------------------------------------------------------------
+
+
+## CONFIG SETTINGS
+
+#### This settings for base type
+
+```
+Config.framework = 'ESX' -- FRAMEWORK! , "ESX", "QBCORE"
+
+```
+
+#### This settings for sql type
+
+```
+Config.Mysql = 'mysql-async' -- "ghmattisql", "mysql-async", "oxmysql"
+
+```
+
+#### This settings for open esx:playerload or qb:onplayerload events
+
+```
+Config.useplayerload = false 
+
+```
+
+#### This settings for pedmenu permission with steam hex id
+
+
+```
+Config.pedmenulist = {
+    ["steam"] = "steam:11000010e15e4d1"
+}
+
+```
+
+
+
