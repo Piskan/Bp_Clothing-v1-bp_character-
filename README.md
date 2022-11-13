@@ -20,3 +20,30 @@ TriggerServerEvent('bp_character:isthisfirst')
 
 
 ------------------------------------------------------------------------------------------------------------------
+
+
+### GET PLAYER CLOTHINGS
+
+#### This export gets all the clothing information of the character
+
+```
+local skin = exports['bp_character']:characterstyleget(playerid)
+
+```
+
+#### This event set skin for ped
+
+```
+TriggerEvent('bp_character:insertped',ped,skin)
+
+```
+
+#### EXAMPLE:
+
+#### Get informatin in server.lua and send 
+
+![This is an image](https://i.hizliresim.com/nwb5kdw.PNG)
+
+#### Send skin with event in client.lua
+
+![This is an image](https://i.hizliresim.com/qvxi8ca.PNG)
