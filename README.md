@@ -204,7 +204,7 @@ Config.pedmenulist = {
 
 #### Do not miss open bp_character > config > Config.useplayerload = true
 
-### LINK :  [MULTICHARACTER](https://easyupload.io/eb4hu1).
+### LINK :  [MULTICHARACTER](https://easyupload.io/wqc0c4).
 
 ------------------------------------------------------------------------------------------------------------------
 
