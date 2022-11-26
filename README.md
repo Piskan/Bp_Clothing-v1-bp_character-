@@ -210,7 +210,7 @@ Config.pedmenulist = {
 
 ## QB MULTICHARACTER INFOS
 
-### LINK :  [QB-MULTICHARACTER-EXAMPLE](https://easyupload.io/8zo7ep).
+### LINK :  [QB-MULTICHARACTER-EXAMPLE](https://easyupload.io/5nrukq).
 
 #### QB MULTICHARACTER - CLIENT PART
 
